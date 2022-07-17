@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1af357beb5f443068c00bca71c5f9549" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.category" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.order_details" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.order" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.product" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.size" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLiBanGiayModel.user" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="QuanLiBanGiayModel.FK__products__catego__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLiBanGiayModel.FK__order_det__order__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLiBanGiayModel.FK__order_det__produ__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLiBanGiayModel.FK__order_det__users__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLiBanGiayModel.FK__sizes__product_i__29572725" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
